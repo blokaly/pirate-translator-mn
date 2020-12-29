@@ -2,6 +2,4 @@ package com.github.blokaly
 import io.micronaut.core.annotation.Introspected
 
 @Introspected
-class HandlerInput {
-    var message: String = ""
-}
+data class OutputMessage(val message: String, val pirateMessage: String)
